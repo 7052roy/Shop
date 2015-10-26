@@ -10,9 +10,8 @@ public class Stock : MonoBehaviour {
     public Text stockText;
 	// Use this for initialization
 	void Start () {
-        PlayerPrefs.SetInt("rct", 5);
         int stock = PlayerPrefs.GetInt("rct");
-        stockText.text = "rct :" + stock.ToString();
+        stockText.text = "Rct :" + stock.ToString();
 	}
 	
 	// Update is called once per frame
