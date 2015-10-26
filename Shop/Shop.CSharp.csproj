@@ -147,6 +147,7 @@
     <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
     <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
     <Compile Include="Assets\Scripts\Ai_Patfinding.cs" />
+    <Compile Include="Assets\Scripts\Stock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
